@@ -1,4 +1,4 @@
-## Learning to Remove Shadows from a Single Image
+## Self-ShadowGAN: Learning to Remove Shadows from a Single Image
 This is the PyTorch implementation of the paper "Learning to Remove Shadows from a Single Image".
 
 
