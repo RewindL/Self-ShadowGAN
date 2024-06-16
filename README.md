@@ -4,12 +4,10 @@ This is the PyTorch implementation of the paper "Learning to Remove Shadows from
 
 ## Requirements
 - python 3.7+
+
 - pytorch 1.4+ & tochvision
-- math
-- scipy
-- scikit-image
-- matplotlib
-- pillow
+
+  
 
 ## Training & Inference
 python main.py --gpu gpu_idx --idx image_idx (e.g. python main.py --gpu 0 --idx 1)
