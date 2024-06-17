@@ -10,7 +10,7 @@ This is the PyTorch implementation of the paper "[Learning to Remove Shadows fro
   
 
 ## Training & Inference
-`python main.py --gpu gpu_idx --idx image_idx` (e.g. `python main.py --gpu 0 --idx 1`)
+`python main.py --gpu gpu_idx --idx image_idx` (*e.g.* `python main.py --gpu 0 --idx 1`)
 
 
 
