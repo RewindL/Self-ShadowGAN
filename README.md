@@ -3,8 +3,8 @@ This is the PyTorch implementation of the paper "[Learning to Remove Shadows fro
 
 
 ## Requirements
-- python 3.7
-- pytorch 1.4
+- python (3.7 or newer version)
+- pytorch (1.4 or newer version)
 - tochvision
 
   
