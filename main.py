@@ -320,9 +320,9 @@ if __name__ == "__main__":
     output_path = "output"
     if not os.path.exists(output_path):
         os.mkdir(output_path)
-        print("{} DIR Maked.".format(output_path))
+        print("[DIR Made]->{}".format(output_path))
     else:
-        print("{} DIR Exists.".format(output_path))
+        print("[DIR Exists]->{}".format(output_path))
 
     s = ShadowRemoval(img_name, output_path, img_torch, mask_torch, iter_num=1600)
     s.optimize()
