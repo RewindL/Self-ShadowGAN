@@ -3,15 +3,16 @@ This is the PyTorch implementation of the paper "[Learning to Remove Shadows fro
 
 
 ## Requirements
+We training our model using
 - python 3.7 (or newer version)
 - pytorch 1.4 (or newer version)
-- torchvision
 
   
 
 ## Training & Inference
+We put several examples (shadow image/mask) in `./images` folder. You can use following code to run our method and get shadow removal result in `./output` folder:
 `python main.py --gpu gpu_idx --idx image_idx` (*e.g.* `python main.py --gpu 0 --idx 1`)
-
+Or, you can put your own test images into `./images` folder and modified thier names.
 
 
 ## Notes
