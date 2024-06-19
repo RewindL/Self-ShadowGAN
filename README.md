@@ -11,8 +11,10 @@ We training our model using
 
 ## Training & Inference
 We put several examples (shadow image/mask) in `./images` folder. You can use following code to run our method and get shadow removal result in `./output` folder:
+
 `python main.py --gpu gpu_idx --idx image_idx` (*e.g.* `python main.py --gpu 0 --idx 1`)
-Or, you can put your own test images into `./images` folder and modified thier names.
+
+Or, you can put your own shadow images/masks into `./images` folder and modified thier names.
 
 
 ## Notes
